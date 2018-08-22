@@ -6,41 +6,43 @@
         <!-- Link to Bootstrap CSS Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <style>
-    p {
+    body {
         font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+        background: url("assets/images/sayagata-400px.png") repeat;
+    }
+    p {
         color: #777777;
     }
     h1, h2, h3, h4, h5, h6 {
         font-family: 'Georgia', Times, 'Times New Roman', serif;
-    }
-    .jumbotron-fluid {
-        background: url("assets/images/sayagata-400px.png") repeat;
     }
 </style>
 </head>
 
 <body>
 <!-- Start Nav -->
-<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff; border-bottom: 1px solid #cccccc; padding: 0">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffffff; border-bottom: 1px solid #cccccc; padding: 0; margin-bottom: 50px">
     <div class="container" style="width: 960px; padding-left: 0; padding-right: 0">
-    <div class="d-flex align-items-stretch" style="width: 50%">
-        <a class="navbar-brand align-items-stretch" href="#" style="background-color: #4aaaa5; color: #ffffff; padding: 10px 30px 10px 30px"><h1>Dalton Ricker</h1></a>
-    </div>
-            <ul class="nav">
+        <a class="navbar-brand" style="background-color: #4aaaa5; color: #ffffff; padding: 10px 30px 10px 30px"><h1>Dalton Ricker</h1></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link active" href="#" style="color: #777777">About</a>
+                    <a class="nav-link active" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html" style="color: #777777; border-right: 1px solid #cccccc; border-left: 1px solid #cccccc">Portfolio</a>
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="contact.html" style="color: #777777">Contact</a>
+                    <a class="nav-link" href="contact.html">Contact</a>
                 </li>
             </ul>
         </div>
+    </div>
 </nav>
 <!-- End Nav -->
-<div class="jumbotron jumbotron-fluid" style="margin-bottom: 0; height: 100%" >
     <div class="container-fluid" style="height: calc(100% - 205px)">
         <div class="row justify-content-center" style="padding-bottom: 80px">
             <div class="card" style="width: 960px">
@@ -71,7 +73,6 @@
             </div>
         </div>
     </div>
-</div>
 <!-- Start Footer -->
 <footer class="page-footer fixed-bottom" style="background-color: #666666; border-top: 5px solid #4aaaa5">
     <div class="footer-copyright text-center py-3" style="color: #cccccc">© 2018 Copyright
