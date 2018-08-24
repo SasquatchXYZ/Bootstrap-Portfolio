@@ -1,0 +1,55 @@
+/* Styles Applied throughout all three pages */
+body {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    background: url("../images/sayagata-400px.png") repeat;
+}
+p {
+    color: #777777;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+/* Styles for Portfolio Page Images & Captions */
+a:hover {
+    text-decoration: none;
+}
+.caption {
+    width: 275px;
+    text-align: center;
+    position: absolute;
+    bottom: 25px;
+    background-color: #4aaaa5;
+    padding: 10px;
+}
+.image {
+    padding: 15px 0 15px 10px
+}
+h5 {
+    color: #ffffff;
+}
+
+/* Styles for Contact Page Button */
+.btn-info {
+    background-color: #4aaaa5;
+}
+.btn-info:hover {
+    background-color: #007f79;
+}
+
+/* Media Queries */
+@media screen and (max-width: 700px) {
+    .navbar-brand {
+        width: 100%;
+        margin-right: 0;
+    }
+    img {
+        width: 100%;
+    }
+    .caption {
+        width: auto;
+    }
+    .page-footer {
+        position: static;
+    }
+}

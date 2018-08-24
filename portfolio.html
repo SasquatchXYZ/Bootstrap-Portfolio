@@ -5,49 +5,12 @@
     <title>Portfolio | Dalton Ricker</title>
         <!-- Link to Bootstrap CSS Stylesheet -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <!-- Link to CSS Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <!-- Viewport sizing for Media Devices -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        a:hover {
-            text-decoration: none;
-        }
-        body {
-            height: 100%; /* added to test sticky footer */
-            font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-            background: url("assets/images/sayagata-400px.png") repeat;
-        }
-        p {
-            color: #777777;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Georgia', Times, 'Times New Roman', serif;
-        }
-        .caption {
-            width: 275px;
-            margin-left: 5.5px;
-            text-align: center;
-            position: absolute;
-            bottom: 10px;
-            background-color: #4aaaa5;
-            padding: 10px;
-        }
-        h5 {
-            color: #ffffff;
-        }
-        /* added to test sticky footer */
-        .wrapper {
-            height: auto !important;
-            height: 100%;
-            min-height: 100%;
-            margin: 0 auto -61px;
-        }
-        footer, .push {
-            height: 61px;
-        }
-        footer {
-            position: static;
-        }
-    </style>
 </head>
+
 <body>
 <!-- Start Nav -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #ffffff; border-bottom: 1px solid #cccccc; padding: 0; margin-bottom: 50px">
@@ -72,57 +35,66 @@
         </div>
     </nav>
 <!-- End Nav -->
-<!--    <div class="jumbotron jumbotron-fluid" style="margin-bottom: 0; height: 100vmax"> -->
-<div class="wrapper">
         <div class="container-fluid" style="padding-bottom: 50px">
             <div class="row justify-content-center">
-                <div class="card" style="width: 960px">
+                <div class="card" style="width: 960px; margin-bottom: 50px">
                     <div class="card-body">
                         <h1 class="card-title" style="color: #4aaaa5">Portfolio</h1>
                         <hr />
-                        <div class="row" style="padding: 15px 0">
+                        <div class="row">
                             <div class="col-sm">
-                                <img src="assets/images/sailing.jpg" class="mx-auto d-block" alt="USNS Rappahannock" title="My last ship with Military Sealift Command.">
-                                <div class="caption"><a href="assets/images/sailingfull.JPG" target="_blank"><h5>Marine Engineer</h5></a></div>
+                                <div class="image">
+                                    <img src="assets/images/sailing.jpg" alt="USNS Rappahannock" title="My last ship with Military Sealift Command.">
+                                    <div class="caption"><a href="assets/images/sailingfull.JPG" target="_blank"><h5>Marine Engineer</h5></a></div>
+                                </div>
                             </div>
                             <div class="col-sm">
-                                <img src="assets/images/threes.jpg" class="mx-auto d-block" alt="Rubik's Cubes" title="Random 3x3 Cubes">
-                                <div class="caption"><a href="assets/images/threesfull.JPG" target="_blank"><h5>Rubik's Cubes</h5></a></div>
+                                <div class="image" style="padding: 15px 0 15px 10px">
+                                    <img src="assets/images/threes.jpg" alt="Rubik's Cubes" title="Random 3x3 Cubes">
+                                    <div class="caption"><a href="assets/images/threesfull.JPG" target="_blank"><h5>Rubik's Cubes</h5></a></div>
+                                </div>
                             </div>
                             <div class="col-sm">
-                            </div>
-                        </div>
-                        <div class="row" style="padding: 15px 0">
-                            <div class="col-sm">
-                                <img src="assets/images/ninja1.jpg" class="mx-auto d-block" alt="2013 Ninja 300" title="My Motorcycle before aftermarket work.">
-                                <div class="caption"><a href="assets/images/ninja.JPG" target="_blank"><h5>Motorcycles</h5></a></div>
-                            </div>
-                            <div class="col-sm">
-                                <img src="assets/images/minx.jpg" class="mx-auto d-block" alt="Teraminx, Elite Kilominx, Pentaminx" title="Teraminx, Elite Kilominx, & Pentaminx">
-                                <div class="caption"><a href="assets/images/minxfull.JPG" target="_blank"><h5>The Minxes</h5></a></div>
-                            </div>
-                            <div class="col-sm">
+                                <!-- Place Additional Photo & Caption Here -->
                             </div>
                         </div>
-                        <div class="row" style="padding: 15px 0">
+                        <div class="row">
                             <div class="col-sm">
-                                <img src="assets/images/seven1.jpg" class="mx-auto d-block" alt="7x7x7" title="My favorite cube type.">
-                                <div class="caption"><a href="assets/images/seven1full.jpg" target="_blank"><h5>Best Cube</h5></a></div>
+                                <div class="image">
+                                    <img src="assets/images/ninja1.jpg" alt="2013 Ninja 300" title="My Motorcycle before aftermarket work.">
+                                    <div class="caption"><a href="assets/images/ninja.JPG" target="_blank"><h5>Motorcycles</h5></a></div>
+                                </div>
                             </div>
                             <div class="col-sm">
+                                <div class="image">
+                                    <img src="assets/images/minx.jpg" alt="Teraminx, Elite Kilominx, Pentaminx" title="Teraminx, Elite Kilominx, & Pentaminx">
+                                    <div class="caption"><a href="assets/images/minxfull.JPG" target="_blank"><h5>The Minxes</h5></a></div>
+                                </div>
                             </div>
                             <div class="col-sm">
+                                <!-- Place Additional Photo & Caption Here -->
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm">
+                                <div class="image">
+                                    <img src="assets/images/seven1.jpg" alt="7x7x7" title="My favorite cube type.">
+                                    <div class="caption"><a href="assets/images/seven1full.jpg" target="_blank"><h5>Best Cube</h5></a></div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <!-- Place Additional Photo & Caption Here -->
+                            </div>
+                            <div class="col-sm">
+                                <!-- Place Additional Photo & Caption Here -->
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    <div class="push"></div>
-</div>
-<!--    </div> -->
 <!-- Start Footer -->
-<footer class="page-footer" style="background-color: #666666; border-top: 5px solid #4aaaa5">
+<footer class="page-footer fixed-bottom" style="background-color: #666666; border-top: 5px solid #4aaaa5">
     <div class="footer-copyright text-center py-3" style="color: #cccccc">Copyright© 2018
     </div>
 </footer>
